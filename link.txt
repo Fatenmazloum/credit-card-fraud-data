@@ -1,0 +1,115 @@
+🧠 Project Goal:
+
+Use unsupervised learning techniques to identify potential fraudulent credit card transactions without labeled data.
+
+📦 Dataset:
+
+Credit Card Fraud Detection – Kaggle: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+
+
+
+
+284,807 transactions
+
+
+
+Features are anonymized PCA components (V1 to V28) + Amount, Time
+
+
+
+Label column is available but should be hidden from the model during unsupervised training (used only for evaluation).
+
+
+
+🛠️ Project Steps:
+
+
+
+
+
+Data Exploration
+
+
+
+
+
+Understand distributions of Amount, Time
+
+
+
+Check for imbalances or patterns
+
+
+
+Preprocessing
+
+
+
+
+
+Scale numerical values (e.g., MinMaxScaler)
+
+
+
+Optional: Apply dimensionality reduction (e.g., t-SNE or PCA for visualization)
+
+
+
+Unsupervised Techniques
+
+
+
+
+
+Use Isolation Forest or One-Class SVM for anomaly detection
+
+
+
+Compare results with Autoencoders (optional for more advanced students)
+
+
+
+Evaluation
+
+
+
+
+
+Reveal the hidden Class labels and evaluate precision, recall, F1-score
+
+
+
+Focus on how well the model detects rare fraud cases (very imbalanced!)
+
+
+
+Insights
+
+
+
+
+
+Which types of transactions were flagged?
+
+
+
+What patterns (if any) exist in detected anomalies?
+
+
+
+📌 Learning Outcomes:
+
+
+
+
+
+Understand how unsupervised models can detect rare events
+
+
+
+Practice real-world anomaly detection in imbalanced datasets
+
+
+
+Learn to validate unsupervised results using available labels
